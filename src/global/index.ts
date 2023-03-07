@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
 
-    body{
+    body, html, #root{
         width: 100%;
         height: 100%;
     }
@@ -28,3 +28,5 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle
+
+
