@@ -13,15 +13,14 @@ export const StyledMain = styled.main`
     height: 100vh;
     width: 100%;
 
-    padding: 10px;
   }
 
   //sidebar
-  .div1 {
-    border: 1px solid red;
-    grid-area: 1 / 1 / 6 / 2;
+    .div1 {
+      border: 1px solid red;
+      grid-area: 1 / 1 / 6 / 2;
 
-  }
+    }
 
   //header
   .div2 {
