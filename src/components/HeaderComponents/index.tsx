@@ -2,12 +2,12 @@ import React from 'react'
 import * as S from './style'
 
 type Props = {
-    text?:string
+  children:React.ReactNode
 }
 
-const Button = ({text}: Props) => {
+const Button = ({children}:Props) => {
   return (
-    <S.StyledButton>{text}</S.StyledButton>
+    <S.StyledButton>{children}</S.StyledButton>
   )
 }
 
