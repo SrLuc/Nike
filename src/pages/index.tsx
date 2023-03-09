@@ -7,13 +7,19 @@ import Button from "../components/HeaderComponents";
 //Article section Component
 import Article from "../components/ArticleComponents";
 
+//Sidebar section Component
+import Sidebar from "../components/SidebarComponents";
+
 type Props = {};
 
 const MainPage = (props: Props) => {
   return (
     <S.StyledMain>
       <div className="parent">
-        <div className="div1">sidebar</div>
+
+        <div className="div1">
+          <Sidebar />
+        </div>
 
         <div className="div2">
           <Button>Home</Button>
@@ -26,6 +32,7 @@ const MainPage = (props: Props) => {
           <Article />
         </div>
       </div>
+      
     </S.StyledMain>
   );
 };

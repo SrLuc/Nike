@@ -1,6 +1,9 @@
 import React from "react";
 import * as S from "./styles";
 
+//imagem
+import shoeNikeImage from '../../assets/Nikeshoe.svg'
+
 interface ArticleProps {}
 
 const Article = ({}: ArticleProps) => {
@@ -19,7 +22,10 @@ const Article = ({}: ArticleProps) => {
         </p>
         <button>Add to Cart</button>
       </S.StyledSectionOne>
-      <S.StyledSectionTwo>mundo</S.StyledSectionTwo>
+        
+      <S.StyledSectionTwo>
+            <img src={shoeNikeImage} alt="" />
+      </S.StyledSectionTwo>
     </S.StyledArticle>
   );
 };

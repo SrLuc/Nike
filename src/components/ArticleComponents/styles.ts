@@ -78,8 +78,14 @@ export const StyledSectionOne = styled.section`
 
 export const StyledSectionTwo = styled.section`
   width: 50%;
-  text-align: right;
   padding: 15px;
 
-  border: 1px solid blue;
+  img{
+    position: relative;
+    right: 80px;
+    width: 100%;
+    height: 100%;
+
+  }
+
 `;
